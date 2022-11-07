@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:sincahome/Sections/SearchArea.dart';
-import 'package:sincahome/Theme/Themebase.dart';
+
+import 'package:sincahome/Theme/config.dart';
 import 'package:sincahome/main.dart';
-import 'package:sincahome/Theme/themeManager.dart';
+
 
 class TopBarSection extends StatelessWidget {
   @override
@@ -59,7 +60,7 @@ class TopBarSection extends StatelessWidget {
                     ),
                   ),
                   onPressed: () {
-                    ThemManager();
+                    currentTheme.switchTheme();
                   },
                   child: Icon(
                     Icons.nights_stay_outlined,
