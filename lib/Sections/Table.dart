@@ -58,7 +58,7 @@ class TableView extends StatelessWidget {
    padding: const EdgeInsets.only(top: 10),
  
      child: Material(
-      color: Colors.red,
+      color: Color.fromARGB(255, 175, 12, 0),
        child: SizedBox( height: 400,
          child: ListView.separated(itemBuilder: (context, index) =>Padding(
            padding: const EdgeInsets.all(8.0),
